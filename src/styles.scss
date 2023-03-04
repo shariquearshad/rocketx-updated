@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{ 
+    background: linear-gradient(101.61deg, #00000E 30.87%, #010D1A 44.68%, #231322 70.18%, #000009 92.3%);
+}
+.text-center{
+    text-align: center;
+}
+.gradient-text{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 104px;
+    letter-spacing: 0.05em;
+    
+    background: linear-gradient(180deg, #8883DB 0%, rgba(136, 131, 219, 0.25) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
