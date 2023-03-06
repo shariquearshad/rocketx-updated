@@ -1,0 +1,156 @@
+.links{
+    display: flex;
+  }
+  @media only screen and (max-width: 650px){
+    .header{
+        margin: 0.5rem !important;
+        width: auto !important;
+        justify-content: space-between !important;
+    }
+.left-container{
+    display: none !important;
+}
+.mobile-menu-button {
+    display: block;
+}
+.mobile-menu-button{
+    display: inline !important;
+}
+  }
+  .mobile-menu-button {
+    width: 40px;
+    height: 34px;
+    background-color: rgba(22, 29, 41, 1);
+    
+    right: 20px;
+    top: 50%;
+    margin-top: -17px;
+    border-radius: 4px;
+    background-image: url(https://www.rocketx.exchange/resources/images/ui/mobile-menu-button.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    display: none;
+}
+  .buy-rvf {
+    width: 140px;
+    text-align: center;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    background-color: #202037;
+    border-radius: 4px;
+    position: absolute;
+    right: 170px;
+    top: 25px;
+    font-size: 11px;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}
+.launch-app {
+    width: 120px;
+    text-align: center;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    background-color: #415FFF;;
+    border-radius: 4px;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    font-size: 11px;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}
+  li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 14px;
+  }
+  li a{
+    
+    height: 100%;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+  }
+  li .arrow{
+    /* background: red; */
+    height: 100%;
+    width: 15px;
+    line-height: 70px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .arrow{
+    background-image: url(https://www.rocketx.exchange/resources/images/ui/dropdown-arrow.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 2px;
+  }
+  
+
+.header{
+    width: 100vw;
+    height: 5rem;
+   // padding: 0rem 5rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    gap: 3rem;
+}
+.left-container{
+    display: flex;
+    gap: 5rem;
+    width: 55%;
+    justify-content: space-around;
+
+}
+@media screen and (max-width: 1240px){
+.launch-app {
+    padding-right: 20px;
+}
+}
+.rocketxicon{
+    padding-left: 5rem;
+    width: 80px;
+    height: 100%;
+    background-image: url(https://www.rocketx.exchange/resources/images/ui/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center left;
+  //  position: absolute;
+    top: 0;
+}
+a{
+    display: inline;
+}
+.button{
+    align-items: center;
+}
+.rvf,.launch{
+max-width: 140px;
+min-width: 120px;
+}
+.launch{
+    max-width: 140px;
+}

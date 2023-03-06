@@ -2,11 +2,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@media only screen and (max-width: 650px){
+ .gradient-text{
+    font-size: 30px !important;
+    line-height: 50px !important;
+ }
+}
 body{ 
     background: linear-gradient(101.61deg, #00000E 30.87%, #010D1A 44.68%, #231322 70.18%, #000009 92.3%);
+    margin: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
 }
 .text-center{
     text-align: center;
+}
+
+.white{
+    color: #DEDEDE;
 }
 .gradient-text{
     font-family: 'DM Sans';

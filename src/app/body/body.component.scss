@@ -1,0 +1,49 @@
+.content-container{
+    padding: 10rem;
+    font-family: 'DM Sans';
+font-style: normal;
+}
+@media only screen and (max-width: 650px){
+    .content-container{padding: 1rem
+    }
+    .sub-title{
+        font-size: 16px !important;
+    }
+    .ecosystem{
+        top: -4rem !important;
+        font-size: 25px !important;
+
+    }
+    .mobilecenter{
+        text-align: center;
+    }
+    .ecosystem{
+        text-align: center;
+    }
+    .description{
+        margin-top: 4rem;
+    }
+    .mobile-padding{
+        margin-top: 4rem !important;
+        margin-bottom: -3rem !important;
+    }
+
+}
+.sub-title{
+    font-weight: 700;
+font-size: 38px;
+line-height: 49px;
+letter-spacing: 0.05em;
+}
+.ecosystem{
+    position: relative;
+    top: -3rem;
+    font-weight: 700;
+font-size: 100px;
+line-height: 130px;
+
+color: #FFFFFF;
+}
+.description{
+    margin-top: 6rem;
+}
